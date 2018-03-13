@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang='en'>
+    <head>
+        <meta charset="utf-8">
+        
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+        <title>Sign in</title>
+
+        <link href='http://fonts.googleapis.com/css?family=Kurale' rel='stylesheet'>
+        
+        
+        <link href='bootstrap-3.3.7/dist/css/bootstrap.css' rel='stylesheet'>
+        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/css/bootstrap.min.css" integrity="2hfp1SzUoho7/TsGGGDaFdsuuDL0LX2hnUp6VkX3CUQ2K4K+xjboZdsXyp4oUHZj" crossorigin="anonymous">
+        <link href='bootstrap-3.3.7/dist/css/bootstrap-theme.css' rel='stylesheet'>
+        <link href='https://github.com/Chugou9/registrationform/blob/master/styles.css' rel='stylesheet'>
+    </head>
+
+    <body>       
+
+        <div class="container">
+            <form class="form-center">
+              
+                <legend class='form-signin-heading'><h2 class='text-center'>Давайте познакомимся</h2></legend>
+                
+                <div class="control-group row">
+                    <label for='inputEmail' class='pull-left col-sm-3 col-form-label'>Email</label>
+                   <div class='col-sm-7'>
+                     <input type="email" id="inputEmail" class="form-control"
+                     placeholder='Адрес электронной почты' required autofocus>
+                     <span class="help-block">Введите адресс электронной почты</span>
+                   </div>
+                 </div>
+
+                <div class='control-group row'>
+                    <label class='control-label pull-left col-sm-3'
+                     for='enterPassword'>Пароль</label>
+                    <div class='controls col-sm-7'>
+                        <input type='password' id='enterPassword' 
+                     class='form-control' placeholder="Пароль" required>
+                     <span class="help-block">Введите пароль, содержащий не менее 8 символов!</span>
+                    </div>
+                </div>
+                
+                
+               <div class="control-group row">
+                    <label for="inputPassword" class="col-sm-3 col-form-label">Проверка пароля</label>
+                    <div class="col-sm-7">
+                            <input type='text' id="enterPasswordVerification" class="form-control" 
+                            placeholder="Подтверждение пароля" required>
+                            <span class="help-block">Введите пароль еще раз</span>
+                    </div>
+                </div>    
+                                    
+               
+                
+               <div class="control-group row">
+                    <label for="enterBirthday" class="col-sm-3 col-form-label">Дата рождения</label>
+                    
+                    <div class="col-sm-7">
+                        
+                        <div class='dropdown open'>
+                            <button class='btn btn-secondary dropdown-toggle' type='button'
+                            id='dropdownMenuButton' data-toggle='dropdown'
+                             aria-haspopup="true" aria-expanded="false">День
+                            </button>
+                            <div class='dropdown-menu' aria-labelledby="dropdownMenuButton">
+                                <a class='dropdown-item' href='#'>1</a>
+                                <a class='dropdown-item' href='#'>2</a>
+                            </div>
+                        
+                        
+                                <button class='btn btn-secondary dropdown-toggle' type='button'
+                                id='dropdownMenuButton' data-toggle='dropdown'
+                                 aria-haspopup="true" aria-expanded="false">Месяц
+                                </button>
+                                <div class='dropdown-menu' aria-labelledby="dropdownMenuButton">
+                                    <a class='dropdown-item' href='#'>1</a>
+                                    <a class='dropdown-item' href='#'>2</a>
+                                </div>
+                            
+                            
+                                    <button class='btn btn-secondary dropdown-toggle' type='button'
+                                    id='dropdownMenuButton' data-toggle='dropdown'
+                                     aria-haspopup="true" aria-expanded="false">Год
+                                    </button>
+                                    <div class='dropdown-menu' aria-labelledby="dropdownMenuButton">
+                                        <a class='dropdown-item' href='#'>1</a>
+                                        <a class='dropdown-item' href='#'>2</a>
+                                    </div>
+                        </div>
+                    </div>            
+               </div>
+               
+                    <div class="form-actions row">
+                            
+                                 <button type="button" class="btn btn-primary" disabled>Сохранить изменения</button>
+                                 <button type="button" class="btn">Отмена</button>
+                                              
+                    </div>
+               
+               
+                
+            </form>
+        </div>
+
+        
+    
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js" integrity="sha384-THPy051/pYDQGanwU6poAc/hOdQxjnOEXzbT+OuUAFqNqFjL+4IGLBgCJC3ZOShY" crossorigin="anonymous"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.2.0/js/tether.min.js" integrity="sha384-Plbmg8JY28KFelvJVai01l8WyZzrYWG825m+cZ0eDDS1f7d/js6ikvy1+X+guPIB" crossorigin="anonymous"></script>
+          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/js/bootstrap.min.js" integrity="VjEeINv9OSwtWFLAtmc4JCtEJXXBub00gtSnszmspDLCtC0I4z4nqz7rEFbIZLLU" crossorigin="anonymous"></script>
+    </body>
+</html>
