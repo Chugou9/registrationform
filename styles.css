@@ -52,6 +52,6 @@ label::-moz-selection {
     margin-bottom: 15px;     
 }
 .error-message {
-    color: red;
+    color: crimson;
 }
 
